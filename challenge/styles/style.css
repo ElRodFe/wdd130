@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: rgb(109, 108, 108);
+}
+
+#first img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#second img {
+    border-radius: 50%;
+    width: 20%;
+    margin: 100px 100px;
+    text-align: center;
+    border: 20px solid rgb(73, 73, 73)
+}

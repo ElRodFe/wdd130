@@ -218,6 +218,145 @@ h4 {
     transform: scale(1.1);
 }
 
+/* Page 2 "Rivers" */
+#second-page-content {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-title {
+    text-align: center;
+    color: #162521;
+    font-family: "Kalam", cursive;
+    font-size: 2em;
+    margin-top: 10px;
+    grid-column: 5/7;
+    
+}
+
+#first-background {
+    height: 725px;
+    background-color: #07beb8;
+    grid-column: 1/11;
+    grid-row: 2/7;
+}
+
+.first-river {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 5/10;
+    grid-row: 3/6;
+}
+
+.first-river:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.first-river-text {
+    background-color: #162521;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+
+.first-river-text h2 {
+    color: #07beb8;
+}
+
+.first-river-text p {
+    color: #07beb8;
+    font-family: "Lato", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#second-background {
+    height: 725px;
+    background-color: #07beb8;
+    grid-column: 1/11;
+    grid-row: 8/13;
+}
+
+.second-river {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/6;
+    grid-row: 9/12;
+}
+
+.second-river:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.second-river-text {
+    background-color: #162521;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 5/10;
+    grid-row: 10/11;
+}
+
+.second-river-text h2 {
+    color: #07beb8;
+}
+
+.second-river-text p {
+    color: #07beb8;
+    font-family: "Lato", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#third-background {
+    height: 725px;
+    background-color: #07beb8;
+    grid-column: 1/11;
+    grid-row: 14/19;
+}
+
+.third-river {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 5/10;
+    grid-row: 15/18;
+}
+
+.third-river:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.third-river-text {
+    background-color: #162521;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/6;
+    grid-row: 16/17;
+}
+
+.third-river-text h2 {
+    color: #07beb8;
+}
+
+.third-river-text p {
+    color: #07beb8;
+    font-family: "Lato", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

@@ -222,6 +222,8 @@ h4 {
 #second-page-content {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    gap: 30px;
+    text-align: left;
 }
 
 .rivers-title {
@@ -235,7 +237,7 @@ h4 {
 }
 
 #first-background {
-    height: 725px;
+    min-height: 725px;
     background-color: #07beb8;
     grid-column: 1/11;
     grid-row: 2/7;
@@ -248,11 +250,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 5/10;
     grid-row: 3/6;
-}
-
-.first-river:hover {
-    transform: scale(1.1);
-    z-index: 1;
+    align-self: center;
 }
 
 .first-river-text {
@@ -262,21 +260,19 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/6;
     grid-row: 4/5;
-}
-
-.first-river-text h2 {
-    color: #07beb8;
+    align-self: center;
+    text-align: left;
+    color: white;
 }
 
 .first-river-text p {
-    color: #07beb8;
     font-family: "Lato", sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 #second-background {
-    height: 725px;
+    min-height: 725px;
     background-color: #07beb8;
     grid-column: 1/11;
     grid-row: 8/13;
@@ -289,11 +285,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/6;
     grid-row: 9/12;
-}
-
-.second-river:hover {
-    transform: scale(1.1);
-    z-index: 1;
+    align-self: center;
 }
 
 .second-river-text {
@@ -303,21 +295,19 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 5/10;
     grid-row: 10/11;
-}
-
-.second-river-text h2 {
-    color: #07beb8;
+    align-self: center;
+    text-align: left;
+    color: white;
 }
 
 .second-river-text p {
-    color: #07beb8;
     font-family: "Lato", sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 #third-background {
-    height: 725px;
+    min-height: 725px;
     background-color: #07beb8;
     grid-column: 1/11;
     grid-row: 14/19;
@@ -330,11 +320,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 5/10;
     grid-row: 15/18;
-}
-
-.third-river:hover {
-    transform: scale(1.1);
-    z-index: 1;
+    align-self: center;
 }
 
 .third-river-text {
@@ -344,14 +330,12 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/6;
     grid-row: 16/17;
-}
-
-.third-river-text h2 {
-    color: #07beb8;
+    align-self: center;
+    text-align: left;
+    color: white;
 }
 
 .third-river-text p {
-    color: #07beb8;
     font-family: "Lato", sans-serif;
     font-size: .8em;
     padding-bottom: 15px;

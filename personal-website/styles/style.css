@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto&display=swap');
+
+/* ---Home Page--- */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #07beb8;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #68d8d6;
+    color: #162521;
+}
+

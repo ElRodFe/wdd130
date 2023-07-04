@@ -201,7 +201,7 @@ footer a:hover {
 .page-2-grid {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    gap: 50px;
+    gap: 20px;
 }
 
 #yerba-plant {

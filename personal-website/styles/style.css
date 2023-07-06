@@ -136,6 +136,7 @@ h1 {
   /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
+    min-width: 200px;
     position: absolute;
     background-color: #814A2C;
     min-width: 160px;
@@ -224,7 +225,6 @@ footer a:hover {
 }
 
 .indian-mate {
-    float: left;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 7/13;
